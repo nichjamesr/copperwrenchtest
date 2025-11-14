@@ -1,0 +1,42 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "pattern": [
+        " c ",
+        " cc",
+        "c  "
+    ],
+    "key": {
+        "c": "minecraft:copper_ingot"
+    },
+    "result": {
+        "id": "minecraft:copper_ingot",
+        "components": {
+            "minecraft:max_stack_size": 1,
+            "minecraft:max_damage": 256,
+            "minecraft:custom_name": [
+                {
+                    "italic": false,
+                    "text": "Copper Wrench"
+                }
+            ],
+            "minecraft:item_name": [
+                {
+                    "italic": false,
+                    "text": "Copper Wrench"
+                }
+            ],
+            "minecraft:item_model": "copper_wrench:copper_wrench",
+            "minecraft:rarity": "common",
+            "minecraft:damage": 0,
+            "minecraft:custom_data": {
+                "copper_wrench.copper_wrench": 1
+            },
+            "minecraft:consumable": {
+                "consume_seconds": 9999999,
+                "animation": "block",
+                "has_consume_particles": false
+            }
+        }
+    }
+}

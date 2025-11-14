@@ -1,0 +1,21 @@
+{
+  "values":[
+	"#copper_wrench:storage",
+	"anvil",
+	"rail",
+	"powered_rail",
+	"activator_rail",
+	"detector_rail",
+	"observer",
+	"piston",
+	"sticky_piston",
+	"dropper",
+	"dispenser",
+	"hopper",
+	"grindstone",
+	"furnace",
+	"blast_furnace",
+	"smoker",
+	"#logs"
+  ]
+}

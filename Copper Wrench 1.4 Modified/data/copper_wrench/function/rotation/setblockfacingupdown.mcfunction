@@ -1,0 +1,9 @@
+$execute store result score copper_wrench.rotation copper_wrench.variable unless score copper_wrench.rotation copper_wrench.variable matches 1 if block ~ ~ ~ $(block)[facing=north] run function copper_wrench:rotation/setblock {"block":"$(block)","var":"facing","direction":"east"}
+$execute store result score copper_wrench.rotation copper_wrench.variable unless score copper_wrench.rotation copper_wrench.variable matches 1 if block ~ ~ ~ $(block)[facing=east] run function copper_wrench:rotation/setblock {"block":"$(block)","var":"facing","direction":"south"}
+$execute store result score copper_wrench.rotation copper_wrench.variable unless score copper_wrench.rotation copper_wrench.variable matches 1 if block ~ ~ ~ $(block)[facing=south] run function copper_wrench:rotation/setblock {"block":"$(block)","var":"facing","direction":"west"}
+$execute store result score copper_wrench.rotation copper_wrench.variable unless score copper_wrench.rotation copper_wrench.variable matches 1 if block ~ ~ ~ $(block)[facing=west] run function copper_wrench:rotation/setblock {"block":"$(block)","var":"facing","direction":"up"}
+$execute store result score copper_wrench.rotation copper_wrench.variable unless score copper_wrench.rotation copper_wrench.variable matches 1 if block ~ ~ ~ $(block)[facing=up] run function copper_wrench:rotation/setblock {"block":"$(block)","var":"facing","direction":"down"}
+$execute store result score copper_wrench.rotation copper_wrench.variable unless score copper_wrench.rotation copper_wrench.variable matches 1 if block ~ ~ ~ $(block)[facing=down] run function copper_wrench:rotation/setblock {"block":"$(block)","var":"facing","direction":"north"}
+
+
+scoreboard players reset copper_wrench.rotation copper_wrench.variable

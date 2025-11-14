@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "using_copper_wrench": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "copper_wrench.copper_wrench": 1
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "copper_wrench:rotate"
+    }
+}

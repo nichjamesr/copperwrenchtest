@@ -1,0 +1,8 @@
+{
+    "function": "minecraft:set_damage",
+    "damage": {
+        "type": "minecraft:storage",
+        "storage": "copper_wrench:damage",
+        "path": "Damage"
+    }
+}
